@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF7A76E9F70FA34E6621C3943B5A7DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		383FB2295C09BD10B2EED3F0B0CF7BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3FC21DDD1FC2465256ADB3BFAE4966DA /* Pods-QRScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C80FC03B63736D16F2ABD29B486C9D /* Pods-QRScannerTests-dummy.m */; };
+		5FF9FC0C5B69527E7AAE02B705CA1EE9 /* Pods-QRScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B789574488BFB0BE2110417485EFD7F0 /* Pods-QRScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750D47827294DBA91FE5EBB0A28A252A /* Pods-QRScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D247B8A74B93FCD9651E01F94ABE8C23 /* Pods-QRScanner-dummy.m */; };
+		89DBF28271585262101C5E1908B302B2 /* Pods-QRScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BBF41982A7FDA933965927F135EF24 /* Pods-QRScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C7763265AC2915E52ACA37C10C7A34 /* Pods-QRScannerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540B597C3163C32A71A00F4900B8964 /* Pods-QRScannerUITests-dummy.m */; };
+		D10C978DCFE50DC99B58A8A13E9D036D /* Pods-QRScannerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D0936CB82345AF5DE0CE524DE202CD /* Pods-QRScannerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA331CCFC07324F4B7F3DB1CB28035D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E44DE5D20CDA5C00ADB21C1D3848535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018D921794329D601F2B50F1EB1DB6E6;
+			remoteInfo = "Pods-QRScanner";
+		};
+		634DEF5DDC89152D8B32DF0754BEE858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018D921794329D601F2B50F1EB1DB6E6;
+			remoteInfo = "Pods-QRScanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C80FC03B63736D16F2ABD29B486C9D /* Pods-QRScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRScannerTests-dummy.m"; sourceTree = "<group>"; };
+		1456139FA7A86B9B9F87C90E73FEAE48 /* Pods-QRScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31ABC0D5820B210355C53B4CAEC82183 /* Pods-QRScannerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRScannerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4B8A5AB48E0386A1D69333B8C9B68FD3 /* Pods-QRScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRScanner-frameworks.sh"; sourceTree = "<group>"; };
+		55F7D95827658D54AE64987A4E4B517A /* Pods-QRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRScanner.release.xcconfig"; sourceTree = "<group>"; };
+		58D0936CB82345AF5DE0CE524DE202CD /* Pods-QRScannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRScannerUITests-umbrella.h"; sourceTree = "<group>"; };
+		5D2B58B0273F1538CBA042B55022BAA8 /* Pods-QRScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRScannerTests.modulemap"; sourceTree = "<group>"; };
+		62D7D45D8FD74B726903514DCA24F42E /* Pods-QRScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BCB3F2A05A86A974425431DD1E40894 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7061382AFB71DA05E1B6B3FBDDD449FF /* Pods_QRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QRScanner.framework; path = "Pods-QRScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7540B597C3163C32A71A00F4900B8964 /* Pods-QRScannerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRScannerUITests-dummy.m"; sourceTree = "<group>"; };
+		7CBF7B03A2B8936AFCA902C1A5AEA29C /* Pods-QRScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E4A48774F5002406D7CDD9BC040F51E /* Pods-QRScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		847FA6C2ABD20134DE25FE9B6CDFD31A /* Pods-QRScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A059C1D53C5505E0019556912D8F3CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1006826790A26619FA682EC05A3FAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928FBAFF422BFD52E5465717FF16782D /* Pods-QRScannerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRScannerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BBF41982A7FDA933965927F135EF24 /* Pods-QRScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRScanner-umbrella.h"; sourceTree = "<group>"; };
+		A3912F99F3640902B8E2384D996D2EB7 /* Pods-QRScannerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRScannerUITests.modulemap"; sourceTree = "<group>"; };
+		B51F79BFBF5B40D7D498CEF7A9D16348 /* Pods-QRScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QRScanner.modulemap"; sourceTree = "<group>"; };
+		B789574488BFB0BE2110417485EFD7F0 /* Pods-QRScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QRScannerTests-umbrella.h"; sourceTree = "<group>"; };
+		BA5B585AE7F6025B32893333507F70E7 /* Pods-QRScannerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRScannerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C65B26664179F8E9603A1CA3E76EF52A /* Pods-QRScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6C5772762BE46C8B09B93152CC50364 /* Pods-QRScanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRScanner-resources.sh"; sourceTree = "<group>"; };
+		C7703EA52C5F6E8A2CEE5A65400D40AC /* Pods-QRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		D247B8A74B93FCD9651E01F94ABE8C23 /* Pods-QRScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRScanner-dummy.m"; sourceTree = "<group>"; };
+		DAFC7676AC924FD128589EB3E34AAED6 /* Pods-QRScannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRScannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA128B57C7F5EA949D14157816B1E465 /* Pods-QRScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECE8C6648708C2B28215CAA130DC47E6 /* Pods_QRScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QRScannerUITests.framework; path = "Pods-QRScannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4FF0860039092A126B5FDFF564A875 /* Pods-QRScannerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRScannerTests-resources.sh"; sourceTree = "<group>"; };
+		FD77A478B1F589CA5FD14B638F82FEA0 /* Pods-QRScannerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRScannerUITests-resources.sh"; sourceTree = "<group>"; };
+		FDE66D639594B4581234B7071CC6DCD8 /* Pods-QRScannerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRScannerTests-frameworks.sh"; sourceTree = "<group>"; };
+		FF3B7A239D3ACE93CED2ACA9831BF940 /* Pods_QRScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QRScannerTests.framework; path = "Pods-QRScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377E58DA39ABB8F82DAA02639B654C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA331CCFC07324F4B7F3DB1CB28035D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42ED102CF1949F4D5B605132A940879D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF7A76E9F70FA34E6621C3943B5A7DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C88B277CF874712FA08D0ECCB724AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383FB2295C09BD10B2EED3F0B0CF7BFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF24F437734E495F4634D3339285D15 /* Pods-QRScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1006826790A26619FA682EC05A3FAF /* Info.plist */,
+				5D2B58B0273F1538CBA042B55022BAA8 /* Pods-QRScannerTests.modulemap */,
+				62D7D45D8FD74B726903514DCA24F42E /* Pods-QRScannerTests-acknowledgements.markdown */,
+				7CBF7B03A2B8936AFCA902C1A5AEA29C /* Pods-QRScannerTests-acknowledgements.plist */,
+				01C80FC03B63736D16F2ABD29B486C9D /* Pods-QRScannerTests-dummy.m */,
+				FDE66D639594B4581234B7071CC6DCD8 /* Pods-QRScannerTests-frameworks.sh */,
+				FB4FF0860039092A126B5FDFF564A875 /* Pods-QRScannerTests-resources.sh */,
+				B789574488BFB0BE2110417485EFD7F0 /* Pods-QRScannerTests-umbrella.h */,
+				EA128B57C7F5EA949D14157816B1E465 /* Pods-QRScannerTests.debug.xcconfig */,
+				C65B26664179F8E9603A1CA3E76EF52A /* Pods-QRScannerTests.release.xcconfig */,
+			);
+			name = "Pods-QRScannerTests";
+			path = "Target Support Files/Pods-QRScannerTests";
+			sourceTree = "<group>";
+		};
+		792500E6D19C364698CD37DE4A443EF5 /* Pods-QRScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BCB3F2A05A86A974425431DD1E40894 /* Info.plist */,
+				A3912F99F3640902B8E2384D996D2EB7 /* Pods-QRScannerUITests.modulemap */,
+				928FBAFF422BFD52E5465717FF16782D /* Pods-QRScannerUITests-acknowledgements.markdown */,
+				BA5B585AE7F6025B32893333507F70E7 /* Pods-QRScannerUITests-acknowledgements.plist */,
+				7540B597C3163C32A71A00F4900B8964 /* Pods-QRScannerUITests-dummy.m */,
+				31ABC0D5820B210355C53B4CAEC82183 /* Pods-QRScannerUITests-frameworks.sh */,
+				FD77A478B1F589CA5FD14B638F82FEA0 /* Pods-QRScannerUITests-resources.sh */,
+				58D0936CB82345AF5DE0CE524DE202CD /* Pods-QRScannerUITests-umbrella.h */,
+				1456139FA7A86B9B9F87C90E73FEAE48 /* Pods-QRScannerUITests.debug.xcconfig */,
+				DAFC7676AC924FD128589EB3E34AAED6 /* Pods-QRScannerUITests.release.xcconfig */,
+			);
+			name = "Pods-QRScannerUITests";
+			path = "Target Support Files/Pods-QRScannerUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8F17D0B969B6E3EADD226842BA116EB4 /* Products */,
+				F5E8564676C49C86864E1A4691A4AC6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F17D0B969B6E3EADD226842BA116EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7061382AFB71DA05E1B6B3FBDDD449FF /* Pods_QRScanner.framework */,
+				FF3B7A239D3ACE93CED2ACA9831BF940 /* Pods_QRScannerTests.framework */,
+				ECE8C6648708C2B28215CAA130DC47E6 /* Pods_QRScannerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38ED6EEAE9538A16A530DE174669562 /* Pods-QRScanner */ = {
+			isa = PBXGroup;
+			children = (
+				8A059C1D53C5505E0019556912D8F3CB /* Info.plist */,
+				B51F79BFBF5B40D7D498CEF7A9D16348 /* Pods-QRScanner.modulemap */,
+				847FA6C2ABD20134DE25FE9B6CDFD31A /* Pods-QRScanner-acknowledgements.markdown */,
+				7E4A48774F5002406D7CDD9BC040F51E /* Pods-QRScanner-acknowledgements.plist */,
+				D247B8A74B93FCD9651E01F94ABE8C23 /* Pods-QRScanner-dummy.m */,
+				4B8A5AB48E0386A1D69333B8C9B68FD3 /* Pods-QRScanner-frameworks.sh */,
+				C6C5772762BE46C8B09B93152CC50364 /* Pods-QRScanner-resources.sh */,
+				97BBF41982A7FDA933965927F135EF24 /* Pods-QRScanner-umbrella.h */,
+				C7703EA52C5F6E8A2CEE5A65400D40AC /* Pods-QRScanner.debug.xcconfig */,
+				55F7D95827658D54AE64987A4E4B517A /* Pods-QRScanner.release.xcconfig */,
+			);
+			name = "Pods-QRScanner";
+			path = "Target Support Files/Pods-QRScanner";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5E8564676C49C86864E1A4691A4AC6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38ED6EEAE9538A16A530DE174669562 /* Pods-QRScanner */,
+				3FF24F437734E495F4634D3339285D15 /* Pods-QRScannerTests */,
+				792500E6D19C364698CD37DE4A443EF5 /* Pods-QRScannerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07466BC53E18B651465F1C3AD0F85A8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10C978DCFE50DC99B58A8A13E9D036D /* Pods-QRScannerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E33770F4A9AA6619CE0AAE24F8E6B24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DBF28271585262101C5E1908B302B2 /* Pods-QRScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D9A0AF29E30BA7C82E92C83C908BBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF9FC0C5B69527E7AAE02B705CA1EE9 /* Pods-QRScannerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		018D921794329D601F2B50F1EB1DB6E6 /* Pods-QRScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A50ACAFC172F6635775DA51E58E5C6C /* Build configuration list for PBXNativeTarget "Pods-QRScanner" */;
+			buildPhases = (
+				3810A82A13874B28FDA326667C3D971A /* Sources */,
+				377E58DA39ABB8F82DAA02639B654C78 /* Frameworks */,
+				2E33770F4A9AA6619CE0AAE24F8E6B24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QRScanner";
+			productName = "Pods-QRScanner";
+			productReference = 7061382AFB71DA05E1B6B3FBDDD449FF /* Pods_QRScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AA9FF5A2FE973AC7F1346A1B2C59E24 /* Pods-QRScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463AD77B11D842A0EE87DAFB84BC5C82 /* Build configuration list for PBXNativeTarget "Pods-QRScannerUITests" */;
+			buildPhases = (
+				FE3685F84AFFB1FCD010269F560DC46D /* Sources */,
+				42ED102CF1949F4D5B605132A940879D /* Frameworks */,
+				07466BC53E18B651465F1C3AD0F85A8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A22D5CA9D326A8ACD7DF00B87B43819 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRScannerUITests";
+			productName = "Pods-QRScannerUITests";
+			productReference = ECE8C6648708C2B28215CAA130DC47E6 /* Pods_QRScannerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8CB8DFBDD04DF471F94C6D9D78DAA18 /* Pods-QRScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D67CE551F36AEE2E476FF724488B15A /* Build configuration list for PBXNativeTarget "Pods-QRScannerTests" */;
+			buildPhases = (
+				5CA94AE64D258FB06172C01509DD9DF6 /* Sources */,
+				5C88B277CF874712FA08D0ECCB724AC9 /* Frameworks */,
+				84D9A0AF29E30BA7C82E92C83C908BBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669E6C63C69E7D12E9D41A3905544AB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRScannerTests";
+			productName = "Pods-QRScannerTests";
+			productReference = FF3B7A239D3ACE93CED2ACA9831BF940 /* Pods_QRScannerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F17D0B969B6E3EADD226842BA116EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018D921794329D601F2B50F1EB1DB6E6 /* Pods-QRScanner */,
+				F8CB8DFBDD04DF471F94C6D9D78DAA18 /* Pods-QRScannerTests */,
+				7AA9FF5A2FE973AC7F1346A1B2C59E24 /* Pods-QRScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3810A82A13874B28FDA326667C3D971A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750D47827294DBA91FE5EBB0A28A252A /* Pods-QRScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA94AE64D258FB06172C01509DD9DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC21DDD1FC2465256ADB3BFAE4966DA /* Pods-QRScannerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3685F84AFFB1FCD010269F560DC46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C7763265AC2915E52ACA37C10C7A34 /* Pods-QRScannerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A22D5CA9D326A8ACD7DF00B87B43819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QRScanner";
+			target = 018D921794329D601F2B50F1EB1DB6E6 /* Pods-QRScanner */;
+			targetProxy = 634DEF5DDC89152D8B32DF0754BEE858 /* PBXContainerItemProxy */;
+		};
+		669E6C63C69E7D12E9D41A3905544AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QRScanner";
+			target = 018D921794329D601F2B50F1EB1DB6E6 /* Pods-QRScanner */;
+			targetProxy = 1E44DE5D20CDA5C00ADB21C1D3848535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1EB07392445C5B78D8EFF3766A4E53B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFC7676AC924FD128589EB3E34AAED6 /* Pods-QRScannerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRScannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRScannerUITests/Pods-QRScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		451DD3FC24F1F1ED75AC656ABE59EF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1456139FA7A86B9B9F87C90E73FEAE48 /* Pods-QRScannerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRScannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRScannerUITests/Pods-QRScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C58B665EA6BD47FE7EAFC31CC102F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7703EA52C5F6E8A2CEE5A65400D40AC /* Pods-QRScanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRScanner/Pods-QRScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BDBF114E070250F382D560384FEC54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65B26664179F8E9603A1CA3E76EF52A /* Pods-QRScannerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRScannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRScannerTests/Pods-QRScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FA9DBADF6402352AE5F5E614A433110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA128B57C7F5EA949D14157816B1E465 /* Pods-QRScannerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRScannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRScannerTests/Pods-QRScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B08D862970E1B5C430EF8BBC7D0CC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F7D95827658D54AE64987A4E4B517A /* Pods-QRScanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QRScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QRScanner/Pods-QRScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463AD77B11D842A0EE87DAFB84BC5C82 /* Build configuration list for PBXNativeTarget "Pods-QRScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451DD3FC24F1F1ED75AC656ABE59EF68 /* Debug */,
+				1EB07392445C5B78D8EFF3766A4E53B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A50ACAFC172F6635775DA51E58E5C6C /* Build configuration list for PBXNativeTarget "Pods-QRScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C58B665EA6BD47FE7EAFC31CC102F6C /* Debug */,
+				8B08D862970E1B5C430EF8BBC7D0CC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D67CE551F36AEE2E476FF724488B15A /* Build configuration list for PBXNativeTarget "Pods-QRScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA9DBADF6402352AE5F5E614A433110 /* Debug */,
+				5BDBF114E070250F382D560384FEC54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
