@@ -10,6 +10,7 @@
 		0824476F7C74C8AB833D3657 /* Pods_QRScannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD20EBF53217CEBCE4768B0 /* Pods_QRScannerUITests.framework */; };
 		321214237D9991D20B783892 /* Pods_QRScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E03763650AB6FBE825C704 /* Pods_QRScanner.framework */; };
 		37A9EBE11E985B093BCECDC0 /* Pods_QRScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E60DE0B1D8A30743E9A900 /* Pods_QRScannerTests.framework */; };
+		EB97885B21C9065000C4CEA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB97885A21C9065000C4CEA0 /* GoogleService-Info.plist */; };
 		EBA4C8EB219449CB001BB63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4C8EA219449CB001BB63D /* AppDelegate.swift */; };
 		EBA4C8ED219449CB001BB63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4C8EC219449CB001BB63D /* ViewController.swift */; };
 		EBA4C8F0219449CB001BB63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA4C8EE219449CB001BB63D /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		84214E9C7A1ECAFCCC08E9AD /* Pods-QRScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRScanner/Pods-QRScanner.release.xcconfig"; sourceTree = "<group>"; };
 		A17E7937EA3056765AC7D992 /* Pods-QRScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRScannerTests/Pods-QRScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6E03763650AB6FBE825C704 /* Pods_QRScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB97885A21C9065000C4CEA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EBA4C8E7219449CB001BB63D /* QRScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA4C8EA219449CB001BB63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA4C8EC219449CB001BB63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				EBA4C8F1219449CC001BB63D /* Assets.xcassets */,
 				EBA4C8F3219449CC001BB63D /* LaunchScreen.storyboard */,
 				EBA4C8F6219449CC001BB63D /* Info.plist */,
+				EB97885A21C9065000C4CEA0 /* GoogleService-Info.plist */,
 			);
 			path = QRScanner;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				EBA4C8E3219449CB001BB63D /* Sources */,
 				EBA4C8E4219449CB001BB63D /* Frameworks */,
 				EBA4C8E5219449CB001BB63D /* Resources */,
+				93EBA49878D3B3CC356FE314 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBA4C8F5219449CC001BB63D /* LaunchScreen.storyboard in Resources */,
+				EB97885B21C9065000C4CEA0 /* GoogleService-Info.plist in Resources */,
 				EBA4C8F2219449CC001BB63D /* Assets.xcassets in Resources */,
 				EBA4C8F0219449CB001BB63D /* Main.storyboard in Resources */,
 			);
@@ -347,6 +352,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EBA49878D3B3CC356FE314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QRScanner/Pods-QRScanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRScanner/Pods-QRScanner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,6 +568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = longtd.QRScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,6 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QRScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = longtd.QRScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
