@@ -6,6 +6,9 @@ target 'QRScanner' do
   use_frameworks!
 
   # Pods for QRScanner
+  pod 'Firebase/Core'
+  pod 'Firebase/MLVision'
+  pod 'Firebase/MLVisionBarcodeModel'
 
   target 'QRScannerTests' do
     inherit! :search_paths
