@@ -32,14 +32,23 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         present(imagePickerController, animated: true, completion: nil)
     }
     
+    @IBAction func cameraButton(_ sender: Any) {
+        imagePickerController.sourceType = .camera
+        present(imagePickerController, animated: true, completion: nil)
+    }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         guard let image = info[.originalImage] as? UIImage else {
             print("No image found")
             return
         }
         imagePicker.image = image
-        let barcodeDetector = vision.barcodeDetector(options: options)
         let visionImage = VisionImage(image: image)
+        self.detecCode(visionImage: visionImage)
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
+    func detecCode(visionImage: VisionImage) {
+        let barcodeDetector = vision.barcodeDetector(options: options)
         barcodeDetector.detect(in: visionImage, completion: { (barcodes, error) in
             guard error == nil, let barcodes = barcodes , !barcodes.isEmpty else {
                 self.dismiss(animated: true, completion: nil)
@@ -55,7 +64,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 case .URL:
                     let title = barcode.url!.title ?? ""
                     let url = barcode.url!.url ?? ""
-                    self.resultView.text = "\(title)\n\(url)"
+                    self.resultView.text = "\(title)\nURL: \(url)"
                 case .phone:
                     self.resultView.text = "Phone number: \(rawValue)"
                 case .wiFi:
@@ -67,7 +76,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 }
             }
         })
-        picker.dismiss(animated: true, completion: nil)
     }
     
 }
