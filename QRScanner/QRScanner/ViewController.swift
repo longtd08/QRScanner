@@ -161,6 +161,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func shareClick(_ sender: Any) {
+        let productUrl = resultView.text
+        let shareContent = [ productUrl ]
+        let activityViewController = UIActivityViewController(activityItems: shareContent as [Any], applicationActivities: nil)
+        activityViewController.popoverPresentationController?.sourceView = self.view
+        self.present(activityViewController, animated: true, completion: nil)
 
     }
 }
