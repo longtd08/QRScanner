@@ -1,6 +1,6 @@
 # QRScanner
 QRScanner là một ứng dụng di động giúp người dùng có thể quét mã BarCode, QRcode.
-QRScanner hỗ trợ quét các định dạng mã:
+App hỗ trợ quét các định dạng mã:
 * qr
 * aztec
 * code128
