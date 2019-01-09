@@ -15,3 +15,9 @@ App hỗ trợ quét các định dạng mã:
 * itf14
 * pdf417
 * upce
+
+## Các chức năng chính của app
+
+1. Quét mã từ ảnh trong thiết bị
+2. Quét mã từ camera của thiết bị
+3. Chia sẻ kết quả quét được
